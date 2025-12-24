@@ -1,0 +1,36 @@
+# Development files
+node_modules/
+*.log
+*.tgz
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files (if any)
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Output files
+output/
+*.png
+
+# Environment
+.env
+.env.local
+
+# Documentation (keep README.md - it will be published)
+# README.md
+
+# Publish guide
+PUBLISH.md

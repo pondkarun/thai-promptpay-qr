@@ -1,10 +1,18 @@
 {
   "name": "@thai/promptpay-qr",
   "version": "1.0.0",
+  "description": "Library for generating QR Code and Barcode from BOT Barcode input. Supports both file output and blob/data URL format.",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "utils",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "qr-code",
@@ -13,14 +21,22 @@
     "thailand",
     "bot-barcode",
     "emvco",
-    "code128"
+    "code128",
+    "thai",
+    "payment"
   ],
   "author": "",
   "license": "ISC",
-  "description": "Library for generating QR Code and Barcode from BOT Barcode input. Supports both file output and blob/data URL format.",
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=12.0.0"
   },
   "dependencies": {
     "canvas": "^3.2.0",
