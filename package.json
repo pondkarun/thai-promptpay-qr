@@ -1,6 +1,6 @@
 {
   "name": "thai-bot-barcode-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for generating QR Code and Barcode from BOT Barcode input. Supports both file output and blob/data URL format.",
   "main": "index.js",
   "types": "index.d.ts",

@@ -5,7 +5,7 @@ const { saveBarcodeImage, generateBarcodeDataURL, generateBarcodeBlob } = requir
 
 /**
  * แปลง BOT Barcode input เป็นข้อมูลที่ใช้ได้
- * @param {string} inputBarcode - BOT Barcode string (เช่น: "|099400016301108 50A0230680100001 0000000105542003108 20000")
+ * @param {string} inputBarcode - BOT Barcode string (เช่น: "|123456789012345 ABC123456789012 12345678901234567890 10000")
  * @returns {Object} - Object ที่มี billerId, ref1, ref2, amount
  */
 function parseBOTBarcode(inputBarcode) {

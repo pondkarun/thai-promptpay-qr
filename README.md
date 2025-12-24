@@ -79,7 +79,7 @@ const {
 } = require('thai-bot-barcode-generator');
 
 // BOT Barcode input
-const inputBarcode = '|099400016301108 50A0230680100001 0000000105542003108 20000';
+const inputBarcode = '|123456789012345 ABC123456789012 12345678901234567890 10000';
 ```
 
 ### TypeScript
@@ -93,7 +93,7 @@ import {
   GenerateOptions
 } from 'thai-bot-barcode-generator';
 
-const inputBarcode = '|099400016301108 50A0230680100001 0000000105542003108 20000';
+const inputBarcode = '|123456789012345 ABC123456789012 12345678901234567890 10000';
 ```
 
 ## 📖 ตัวอย่างการใช้งาน
@@ -110,10 +110,10 @@ console.log('QR Code:', result.qrCode); // data:image/png;base64,...
 console.log('Barcode:', result.barcode); // data:image/png;base64,...
 console.log('Parsed Data:', result.parsedData);
 // {
-//   billerId: '099400016301108',
-//   ref1: '50A0230680100001',
-//   ref2: '0000000105542003108',
-//   amount: 200
+//   billerId: '123456789012345',
+//   ref1: 'ABC123456789012',
+//   ref2: '12345678901234567890',
+//   amount: 100
 // }
 ```
 
@@ -171,7 +171,7 @@ const fileResult = await saveFromBarcode(
 แปลง BOT Barcode input เป็นข้อมูลที่ใช้ได้
 
 **Parameters:**
-- `inputBarcode` - BOT Barcode string (เช่น: "|099400016301108 50A0230680100001 0000000105542003108 20000")
+- `inputBarcode` - BOT Barcode string (เช่น: "|123456789012345 ABC123456789012 12345678901234567890 10000")
 
 **Returns:**
 ```typescript
@@ -227,10 +227,10 @@ BOT Barcode format: `|[billerId] [ref1] [ref2] [amount]`
 
 **ตัวอย่าง:**
 ```
-|099400016301108 50A0230680100001 0000000105542003108 20000
+|123456789012345 ABC123456789012 12345678901234567890 10000
 ```
 
-หมายเหตุ: จำนวนเงิน `20000` = 200.00 บาท (20000 สตางค์)
+หมายเหตุ: จำนวนเงิน `10000` = 100.00 บาท (10000 สตางค์)
 
 ### ข้อกำหนด BOT Barcode
 

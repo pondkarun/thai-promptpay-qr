@@ -78,7 +78,7 @@ export interface BarcodeUtils {
 
 /**
  * Parse BOT Barcode input string to structured data
- * @param inputBarcode - BOT Barcode string (e.g., "|099400016301108 50A0230680100001 0000000105542003108 20000")
+ * @param inputBarcode - BOT Barcode string (e.g., "|123456789012345 ABC123456789012 12345678901234567890 10000")
  * @returns Parsed BOT Barcode data
  */
 export function parseBOTBarcode(inputBarcode: string): ParsedBarcodeData;
