@@ -1,0 +1,18 @@
+{
+  "name": "qr_code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "jsbarcode": "^3.12.1",
+    "promptparse": "^1.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
