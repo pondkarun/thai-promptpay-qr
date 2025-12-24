@@ -1,4 +1,4 @@
-# @thai/promptpay-qr
+# thai-bot-barcode-generator
 
 ไลบรารีสำหรับสร้าง QR Code และ Barcode จาก BOT Barcode input สำหรับระบบ PromptPay ของประเทศไทย รองรับทั้งการบันทึกเป็นไฟล์และส่งออกเป็น blob/data URL format
 
@@ -63,7 +63,7 @@
 ## 📦 การติดตั้ง
 
 ```bash
-npm install @thai/promptpay-qr
+npm install thai-bot-barcode-generator
 ```
 
 ## 🚀 การใช้งาน
@@ -76,7 +76,7 @@ const {
   generateQRCodeBlobFromBarcode,
   generateBarcodeBlobFromBarcode,
   saveFromBarcode
-} = require('@thai/promptpay-qr');
+} = require('thai-bot-barcode-generator');
 
 // BOT Barcode input
 const inputBarcode = '|099400016301108 50A0230680100001 0000000105542003108 20000';
@@ -91,7 +91,7 @@ import {
   generateBarcodeBlobFromBarcode,
   saveFromBarcode,
   GenerateOptions
-} from '@thai/promptpay-qr';
+} from 'thai-bot-barcode-generator';
 
 const inputBarcode = '|099400016301108 50A0230680100001 0000000105542003108 20000';
 ```
@@ -249,7 +249,7 @@ import {
   GenerateOptions,
   GenerateBlobResult,
   GenerateFileResult
-} from '@thai/promptpay-qr';
+} from 'thai-bot-barcode-generator';
 
 const options: GenerateOptions = {
   returnBlob: true

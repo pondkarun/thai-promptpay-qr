@@ -1,5 +1,5 @@
 {
-  "name": "@thai/promptpay-qr",
+  "name": "thai-bot-barcode-generator",
   "version": "1.0.0",
   "description": "Library for generating QR Code and Barcode from BOT Barcode input. Supports both file output and blob/data URL format.",
   "main": "index.js",
@@ -11,8 +11,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm test"
+    "test": "echo \"No tests specified\""
   },
   "keywords": [
     "qr-code",
@@ -29,7 +28,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pondkarun/-thai-promptpay-qr.git"
+    "url": "git+https://github.com/pondkarun/-thai-promptpay-qr.git"
   },
   "bugs": {
     "url": "https://github.com/pondkarun/-thai-promptpay-qr/issues"
